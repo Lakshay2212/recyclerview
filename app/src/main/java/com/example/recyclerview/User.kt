@@ -1,8 +1,8 @@
-import com.google.firebase.firestore.auth.User
+package com.example.recyclerview
 
 data class User(
-    var imageID:Int,
-    var name:String,
-    var lastMsg:String,
-    var lastMsgTime:String,
+var imageID:Int,
+var name:String,
+var lastMsg:String,
+var lastMsgTime:String,
 )

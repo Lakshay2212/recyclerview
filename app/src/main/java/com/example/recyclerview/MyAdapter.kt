@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.google.firebase.firestore.auth.User
 import de.hdodenhof.circleimageview.CircleImageView
 
 class MyAdapter(var context: Activity, var arraylist: ArrayList<User>):
